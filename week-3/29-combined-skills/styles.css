@@ -8,3 +8,9 @@ span.heart {
     article.hero h2.hero__title {
       font-size: 50px;
     }
+    /*Navigation*/
+    .main-nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+      }
