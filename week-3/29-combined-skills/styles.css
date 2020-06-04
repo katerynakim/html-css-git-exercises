@@ -2,3 +2,9 @@
 span.heart {
     color:#c85308;
   }
+  /*Media Query*/
+
+@media (min-width: 992px) {
+    article.hero h2.hero__title {
+      font-size: 50px;
+    }
