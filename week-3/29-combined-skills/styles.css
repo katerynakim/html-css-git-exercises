@@ -1,16 +1,26 @@
-/* Add your own CSS code below */
 span.heart {
-    color:#c85308;
-  }
-  /*Media Query*/
+  color: #c85308;
+}
+
+.main-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*Media Query*/
 
 @media (min-width: 992px) {
-    article.hero h2.hero__title {
-      font-size: 50px;
-    }
-    /*Navigation*/
-    .main-nav ul {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-      }
+  article.hero h2.hero__title {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 767px) {
+  header.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+}
