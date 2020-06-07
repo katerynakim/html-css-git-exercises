@@ -23,4 +23,18 @@ span.heart {
     align-items: center;
   }
 }
+/*step 6*/
+article.views {
+  display: flex;
+  align-items: center;
 }
+article.views a:last-child {
+  margin-left: auto;
+}
+
+a.view-list__item {
+  margin-left: 25px;
+}
+
+
+ 
