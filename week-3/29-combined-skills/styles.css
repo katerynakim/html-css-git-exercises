@@ -36,5 +36,26 @@ a.view-list__item {
   margin-left: 25px;
 }
 
+label,
+legend {
+  font-weight: bold;
+}
+
+fieldset label {
+  line-height: 32px;
+}
+
+/* 11*/
+main.site-content {
+  display: flex;
+  justify-content: center;
+}
+.main-article {
+  max-width: 50em;
+}
+.main-article p {
+  line-height: 1.7rem;
+}
+
 
  
